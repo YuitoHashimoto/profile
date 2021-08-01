@@ -1,0 +1,14 @@
+/*
+Theme Name: profile
+Author: hoge
+Version: 1.0
+ */
+ @import '_ress', '_var', '_common';
+
+a:visited, a:link {
+    text-decoration: none;
+}
+
+body {
+    background: tomato;
+}
