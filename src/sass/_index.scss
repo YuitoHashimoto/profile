@@ -1,6 +1,8 @@
 .index {
     width: 100vw;
     height: 100vh;
+    position: relative;
+    padding: 12vh 0 0 0;
     &__main {
         position: relative;
         width: 100%;
@@ -16,7 +18,7 @@
         }
         &__txt {
             position: absolute;
-            bottom: -2.4rem;
+            bottom: -5.4rem;
             left: 2.6rem;
             color: $txtColor;
             font-size: 4.8rem;

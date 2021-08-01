@@ -388,6 +388,8 @@ body {
 .index {
   width: 100vw;
   height: 100vh;
+  position: relative;
+  padding: 12vh 0 0 0;
 }
 
 .index__main {
@@ -408,7 +410,7 @@ body {
 
 .index__main__txt {
   position: absolute;
-  bottom: -2.4rem;
+  bottom: -5.4rem;
   left: 2.6rem;
   color: #303030;
   font-size: 4.8rem;
@@ -438,14 +440,159 @@ body {
   font-size: 1.8rem;
 }
 
-a:visited, a:link {
-  text-decoration: none;
+.about {
+  width: 100vw;
 }
 
-.head {
+.about__head {
+  width: 100%;
+  height: 44.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: gray;
+}
+
+.about__head h1 {
+  font-size: 4.8rem;
+  color: #fff;
+}
+
+.about__name {
+  width: 100%;
+  height: 25.0rem;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6.6rem 0 0 0;
+}
+
+.about__name__img {
+  width: 17.0rem;
+  height: 17.0rem;
+  border-radius: 50%;
+  border: 0.5px solid #fff;
+  margin: 0 4.0rem 0 0;
+  background: url("../img/profileImg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about__name__txt {
+  font-size: 3.8rem;
+  color: #fff;
+}
+
+.about__name__txt h2 {
+  font-weight: 500;
+  line-height: 6.0rem;
+}
+
+.about__name__txt span {
+  font-size: 3.2rem;
+}
+
+.about__content {
+  width: 100%;
+  padding: 0 6.4rem;
+  margin: 0 0 4.0rem 0;
+}
+
+.about__content__box h3 {
+  font-size: 3.2rem;
+  line-height: 1;
+  font-weight: 100;
+  border-bottom: 1px solid #000000;
+  margin: 8.0rem 0 0 0;
+}
+
+.about__content__box pre {
+  font-size: 1.6rem;
+  line-height: 3.0rem;
+  font-weight: 10;
+  padding: 0 1.6rem;
+  margin: 2.8rem 0 0 0;
+}
+
+.about__content__box__skill {
+  width: 100%;
+  padding: 0 1.2rem;
+}
+
+.about__content__box__skill .skillVar {
   position: relative;
   width: 100%;
-  height: 12vh;
+  height: 4.0rem;
+  background: #777;
+  display: flex;
+  align-items: center;
+  margin: 2.0rem 0 0 0;
+}
+
+.about__content__box__skill .skillVar div {
+  width: 80%;
+  height: 4.0rem;
+  position: absolute;
+  z-index: 90;
+  top: 0;
+  left: 0;
+  width: 80%;
+  background: #000000;
+}
+
+.about__content__box__skill .skillVar p {
+  position: absolute;
+  top: 0.6rem;
+  z-index: 100;
+  font-size: 2.0rem;
+  font-weight: 100;
+  color: #fff;
+}
+
+.about__content__box__skill .skillVar__lang {
+  left: 1.2rem;
+}
+
+.about__content__box__skill .skillVar__num {
+  right: 1.2rem;
+}
+
+.about__content__box__skill .skillVar .html {
+  width: 70%;
+}
+
+.about__content__box__skill .skillVar .css {
+  width: 65%;
+}
+
+.about__content__box__skill .skillVar .js {
+  width: 80%;
+}
+
+.about__content__box__skill .skillVar .php {
+  width: 60%;
+}
+
+.about__content__box__skill .skillVar .wp {
+  width: 55%;
+}
+
+.about__content__box__skill .skillVar .ruby {
+  width: 20%;
+}
+
+.about__content__box__skill .skillVar .python {
+  width: 10%;
+}
+
+body {
+  font-family: 'Noto Sans Javanese','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:visited, a:link {
+  text-decoration: none;
 }
 
 .head__logo {

@@ -5,33 +5,32 @@ Version: 1.0
  */
  @import '_ress', '_var', '_common','_index','_about';
 
+body {
+    font-family: 'Noto Sans Javanese','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 a:visited, a:link {
     text-decoration: none;
 }
 
 // headStyle
-.head {
-    position: relative;
-    width: 100%;
-    height: 12vh;
-    &__logo {
-        position: absolute;
-        z-index: 100;
-        top: 2.6rem;
-        left: 2.6rem;
-        cursor: pointer;;
-    }// logo
-    &__menu {
-        position: absolute;
-        z-index: 100;
-        top: 0;
-        right: 10.6rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 8.4rem;
-        height: 13.0rem;
-        background: $mainColor;
-        cursor: pointer;
-    }
-}// head
+.head__logo {
+    position: absolute;
+    z-index: 100;
+    top: 2.6rem;
+    left: 2.6rem;
+    cursor: pointer;;
+}// logo
+.head__menu {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 10.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.4rem;
+    height: 13.0rem;
+    background: $mainColor;
+    cursor: pointer;
+}
